@@ -1,0 +1,58 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/inline.318b50c57b4eba3d437b.bundle.js",
+        "/main.e07c6a28b1a135edd02b.bundle.js",
+        "/polyfills.fa62713060e7012f88ea.bundle.js",
+        "/scripts.dfe17c794d5054cc4112.bundle.js",
+        "/styles.ccdde2fd31b92470c03a.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/beer.png",
+        "/assets/beer1.png",
+        "/assets/cart.png",
+        "/assets/emptyCart.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "\\/",
+        "http:\\/\\/starlord\\.hackerearth\\.com\\/beercraft",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/assets/beer.png": "5c7138acb6d6445ff1db110f3f799ec4e6e47100",
+    "/main.e07c6a28b1a135edd02b.bundle.js": "c10f7c6458ad44a83439cd60f52cb606a4d92fea",
+    "/assets/beer1.png": "8bfdf8e481436dae24dd9e1074df13383ffa8f37",
+    "/polyfills.fa62713060e7012f88ea.bundle.js": "086b38be64925fb65d363f0163199c5b9ce0c54b",
+    "/assets/cart.png": "4b014fdbd4a7a219a238d1f9f3f52df4c713591e",
+    "/scripts.dfe17c794d5054cc4112.bundle.js": "d41f05aa13673c0aa9b15c6ae0f007140a7b0c64",
+    "/assets/emptyCart.png": "04f1f3b1aa7f506f572d20b005999144b5811bc4",
+    "/styles.ccdde2fd31b92470c03a.bundle.css": "bad71ba61db5883aedaeff968eb6a511685abf93",
+    "/index.html": "17688a7e318c5d8503bacb32b7a76e0108b25e2c"
+  }
+}
